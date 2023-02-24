@@ -76,10 +76,25 @@ i{
     /* margin-right: 100px; */
     
 }
+.my_new_pic{
+    height: 30rem;
+    transform: translateX(-10rem);
+}
+.first_content{
+    z-index: 1000;
+}
+.second_content{
+    z-index: 100;
 
+}
 .fa-globe,.fa-linkedin-in,.fa-bars,.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-pinterest{
     font-size: 1.7rem;
 }
+.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-pinterest{
+    color: rgb(255, 196, 0);
+
+}
+
 .hero_section{
     height: 57vh;
 }
@@ -88,7 +103,7 @@ i{
     color: #888793;
 }
 .name{
-    font-size: 4rem;
+    font-size: 3.6rem;
     color: #feffff;
     /* color: #feffff; */
     font-family: 'Phudu', cursive;
@@ -239,6 +254,16 @@ i:hover{
     height: 32vh;
     color: #feffff;
 }
+.margin_right{
+    border-right: 5px solid #363543;
+    border-bottom:10px solid #363543;
+}
+.margin_left {
+    border-left: 5px solid #363543;
+    border-bottom:10px solid #363543;
+}
+.margin_bottom{
+}
 
 .portfolio_btn{
     border: 1px solid rgb(255, 196, 0);
@@ -316,7 +341,12 @@ font-family: 'Titillium Web', sans-serif;
 }
 .sec_footer{
     /* display: flex; */
+   
     justify-content: space-between;
     color: white;
     border-top: 1px solid whitesmoke;
+}
+.sec_sub_footer{
+    display: flex;
+    align-items: center;
 }
